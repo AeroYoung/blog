@@ -8,6 +8,7 @@
 * 读书笔记
     * 非计算机专业的程序员必读
         * [深入理解计算机系统](https://github.com/AeroYoung/blog/issues/2)
+        * [Head Frist 设计模式](https://github.com/AeroYoung/blog/issues/3)
     * 用户交互，用户体验类
     * 数据库
         * [SQL与关系数据库理论](https://github.com/AeroYoung/blog/issues/1)
