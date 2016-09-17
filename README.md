@@ -4,7 +4,7 @@
 
 [热烈庆祝从CSDN乔迁新居](http://blog.csdn.net/aeroyoung)
 
-###目录
+### 目录
 * 读书笔记
     * 非计算机专业的程序员必读
         * [深入理解计算机系统](https://github.com/AeroYoung/blog/issues/2)
@@ -13,5 +13,8 @@
     * 数据库
         * [SQL与关系数据库理论](https://github.com/AeroYoung/blog/issues/1)
     * 其他
-* LeetCode [java代码和总结](https://github.com/AeroYoung/LeetCode) 
+* [LeetCode](https://github.com/AeroYoung/LeetCode) 
+    * [双指针算法](https://github.com/AeroYoung/LeetCode/blob/master/%E5%8F%8C%E6%8C%87%E9%92%88.md)
+    * [No.11Container With Most Water](https://github.com/AeroYoung/LeetCode/issues/1)
+    * [No.14 Longest Common Prefix](https://github.com/AeroYoung/LeetCode/issues/2)
 * Node.js [学习过程中的一些例子](https://github.com/AeroYoung/NodeJS_Project)
