@@ -20,5 +20,3 @@
     * [No.14 Longest Common Prefix](https://github.com/AeroYoung/LeetCode/issues/2)
 * Node.js [学习过程中的一些例子](https://github.com/AeroYoung/NodeJS_Project)
 * [MES项目分析](https://github.com/AeroYoung/blog/blob/master/Files/BHRT-MES%E9%A1%B9%E7%9B%AE%E5%88%86%E6%9E%90.md)
-
-着手把NX二次开发的代码移植到C#
