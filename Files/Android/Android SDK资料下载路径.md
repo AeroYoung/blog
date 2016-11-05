@@ -36,16 +36,20 @@ IPV4/IPV6: http://mirrors.opencas.ac.cn 端口：80
 
 # 通过SDK Manager自动安装释放到相应位置
 可以将安装包放在文件夹android-sdk-windows/temp下，通过SDK Manager自动安装释放到相应位置. 然后启动SDK Manager选中刚才下载的文件，点击install。这时候其实已经下载好了，Manager会自动解压并安装。
+
 1. platform-tools：Android平台工具包，释放到android-sdk-windows下，产生文件夹platform-tools
 	https://dl-ssl.google.com/android/repository/platform-tools_r24-windows.zip
 	https://dl-ssl.google.com/android/repository/platform-tools_r24-linux.zip
 	https://dl-ssl.google.com/android/repository/platform-tools_r24-macosx.zip
+
 2. build-tools：释放到android-sdk-windows下，产生文件夹build-tools，各版本都可能用到
 	https://dl-ssl.google.com/android/repository/build-tools_r24.0.1-windows.zip
 	https://dl-ssl.google.com/android/repository/build-tools_r24.0.1-linux.zip
 	https://dl-ssl.google.com/android/repository/build-tools_r24.0.1-macosx.zip
+
 3. platforms (各种版本的Android平台，释放到android-sdk-windows/platforms下)
 	https://dl-ssl.google.com/android/repository/platform-24_r01.zip
+
 4. system-images (Android系统镜像，释放到android-sdk-windows/system-images/android-xx下[xx对应api版本数字])
 	https://dl-ssl.google.com/android/repository/sys-img/android-tv/sysimg_atv_x86-24_r05.zip
 	https://dl-ssl.google.com/android/repository/sys-img/android-wear/sysimg_wear_armeabi-v7a-24_r01.zip
@@ -53,109 +57,87 @@ IPV4/IPV6: http://mirrors.opencas.ac.cn 端口：80
 	https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_armeabi-v7a-24_r05.zip
 	https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_x86-24_r05.zip
 	https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_x86_64-24_r05.zip
+
 5. docs (文档，释放到android-sdk-windows下，会产生文件夹docs)
 	https://dl-ssl.google.com/android/repository/docs-23_r01.zip
+
 6. samples (应用实例，释放到android-sdk-windows/samples下)
 	https://dl-ssl.google.com/android/repository/samples-2.1_r01-linux.zip
-	https://dl-ssl.google.com/android/repository/samples-2.2_r01-linux.zip
-	https://dl-ssl.google.com/android/repository/samples-2.3_r01-linux.zip
-	https://dl-ssl.google.com/android/repository/samples-2.3.3_r01-linux.zip
-	https://dl-ssl.google.com/android/repository/samples-3.0_r01-linux.zip
-	https://dl-ssl.google.com/android/repository/samples-3.1_r01-linux.zip
-	https://dl-ssl.google.com/android/repository/samples-3.2_r01-linux.zip
-	https://dl-ssl.google.com/android/repository/samples-14_r02.zip
-	https://dl-ssl.google.com/android/repository/samples-15_r02.zip
-	https://dl-ssl.google.com/android/repository/samples-16_r01.zip
-	https://dl-ssl.google.com/android/repository/samples-17_r01.zip
-	https://dl-ssl.google.com/android/repository/samples-18_r01.zip
-	https://dl-ssl.google.com/android/repository/samples-19_r06.zip
-	https://dl-ssl.google.com/android/repository/samples-20_r03.zip
-	https://dl-ssl.google.com/android/repository/samples-21_r04.zip
-	https://dl-ssl.google.com/android/repository/samples-22_r06.zip
 	https://dl-ssl.google.com/android/repository/samples-23_r02.zip
+
 7. sources (Android SDK源程序，释放到android-sdk-windows/sources/android-xx下[xx对应api版本数字])
-	https://dl-ssl.google.com/android/repository/sources-14_r01.zip
-	https://dl-ssl.google.com/android/repository/sources-15_r02.zip
-	https://dl-ssl.google.com/android/repository/sources-16_r02.zip
-	https://dl-ssl.google.com/android/repository/sources-17_r01.zip
-	https://dl-ssl.google.com/android/repository/sources-18_r01.zip
-	https://dl-ssl.google.com/android/repository/sources-19_r02.zip
-	https://dl-ssl.google.com/android/repository/sources-20_r01.zip
-	https://dl-ssl.google.com/android/repository/sources-21_r01.zip
-	https://dl-ssl.google.com/android/repository/sources-22_r01.zip
 	https://dl-ssl.google.com/android/repository/sources-23_r01.zip
 
 8. extras (扩展应用，释放到android-sdk-windows/extras下)
-
-GPU Debugging tools 3.1
+	* GPU Debugging tools 3.1
 	https://dl-ssl.google.com/android/repository/extras/gapid/gapid_r01_linux.zip
 	https://dl-ssl.google.com/android/repository/extras/gapid/gapid_r01_osx.zip
 	https://dl-ssl.google.com/android/repository/extras/gapid/gapid_r01_windows.zip
 
-GPU Debugging tools 1.0.3
-https://dl-ssl.google.com/android/repository/extras/gapid/gapid_2994895_windows.zip
-https://dl-ssl.google.com/android/repository/extras/gapid/gapid_2994895_linux.zip
-https://dl-ssl.google.com/android/repository/extras/gapid/gapid_2994895_osx.zip
-Android Support Repository(extras/android/m2repository)
-https://dl-ssl.google.com/android/repository/android_m2repository_r35.zip
+	* GPU Debugging tools 1.0.3
+	https://dl-ssl.google.com/android/repository/extras/gapid/gapid_2994895_windows.zip
+	https://dl-ssl.google.com/android/repository/extras/gapid/gapid_2994895_linux.zip
+	https://dl-ssl.google.com/android/repository/extras/gapid/gapid_2994895_osx.zip
+	Android Support Repository(extras/android/m2repository)
+	https://dl-ssl.google.com/android/repository/android_m2repository_r35.zip
 
-Android Support Library(extras/android/support)
-https://dl-ssl.google.com/android/repository/support_r23.1.1.zip
-https://dl-ssl.google.com/android/repository/support_r23.2.1.zip
+	* Android Support Library(extras/android/support)
+	https://dl-ssl.google.com/android/repository/support_r23.1.1.zip
+	https://dl-ssl.google.com/android/repository/support_r23.2.1.zip
 
-Android Auto Desktop Head Unit emulator
-https://dl-ssl.google.com/android/repository/extras/auto/desktop-head-unit-windows_r01.1.zip
-https://dl-ssl.google.com/android/repository/extras/auto/desktop-head-unit-linux_r01.1.zip
-https://dl-ssl.google.com/android/repository/extras/auto/desktop-head-unit-macosx_r01.1.zip
+	* Android Auto Desktop Head Unit emulator
+	https://dl-ssl.google.com/android/repository/extras/auto/desktop-head-unit-windows_r01.1.zip
 
-Google AdMob Ads SDK(extras/google/admob_ads_sdk) (Obsolete)
-https://dl-ssl.google.com/googleadmobadssdk/googleadmobadssdkandroid-6.4.1.zip
-Google Analytics App Tracking SDK(extras/google/analytics_sdk_v2) (Obsolete)
-https://dl.google.com/gaformobileapps/GoogleAnalyticsAndroid_2.0beta5.zip
-Google Cloud Messaging for Android Library(extras/google/gcm) (Obsolete)
-https://dl-ssl.google.com/android/repository/gcm_r03.zip
+	* Google AdMob Ads SDK(extras/google/admob_ads_sdk) (Obsolete)
+	https://dl-ssl.google.com/googleadmobadssdk/googleadmobadssdkandroid-6.4.1.zip
 
-Google Play services for Froyo
-https://dl-ssl.google.com/android/repository/google_play_services_3265130_r12.zip
+	* Google Analytics App Tracking SDK(extras/google/analytics_sdk_v2) (Obsolete)
+	https://dl.google.com/gaformobileapps/GoogleAnalyticsAndroid_2.0beta5.zip
 
-Google Play services(extras/google/google_play_services)
-https://dl-ssl.google.com/android/repository/google_play_services_8487000_r29.zip
-https://dl-ssl.google.com/android/repository/google_play_services_9080000_r30.zip
-https://dl-ssl.google.com/android/repository/google_play_services_9256000_r31.zip
+	* Google Cloud Messaging for Android Library(extras/google/gcm) (Obsolete)
+	https://dl-ssl.google.com/android/repository/gcm_r03.zip
 
-Google Repository(extras/google/m2repository)
-https://dl-ssl.google.com/android/repository/google_m2repository_r25.zip
-https://dl-ssl.google.com/android/repository/google_m2repository_r26.zip
-https://dl-ssl.google.com/android/repository/google_m2repository_r31.zip
+	* Google Play services for Froyo
+	https://dl-ssl.google.com/android/repository/google_play_services_3265130_r12.zip
 
-Google Play APK Expansion Library(extras/google/play_apk_expansion)
-https://dl-ssl.google.com/android/repository/market_apk_expansion-r03.zip
+	* Google Play services(extras/google/google_play_services)
+	https://dl-ssl.google.com/android/repository/google_play_services_9256000_r31.zip
 
-Google Play Billing Library(extras/google/play_billing)
-https://dl-ssl.google.com/android/repository/play_billing_r05.zip
-Google Play Licensing Library(extras/google/play_licensing)
-https://dl-ssl.google.com/android/repository/market_licensing-r02.zip
+	* Google Repository(extras/google/m2repository)
+	https://dl-ssl.google.com/android/repository/google_m2repository_r25.zip
+	https://dl-ssl.google.com/android/repository/google_m2repository_r26.zip
+	https://dl-ssl.google.com/android/repository/google_m2repository_r31.zip
 
-Android Auto API Simulators
-https://dl-ssl.google.com/android/repository/simulator_r01.zip
-Google USB Driver(extras/usb_driver)
-https://dl-ssl.google.com/android/repository/usb_driver_r10-windows.zip
-https://dl-ssl.google.com/android/repository/usb_driver_r11-windows.zip
+	* Google Play APK Expansion Library(extras/google/play_apk_expansion)
+	https://dl-ssl.google.com/android/repository/market_apk_expansion-r03.zip
 
-Google Web Driver(extras/google/webdriver)
-https://dl-ssl.google.com/android/repository/webdriver_r02.zip
+	* Google Play Billing Library(extras/google/play_billing)
+	https://dl-ssl.google.com/android/repository/play_billing_r05.zip
 
-Intel x86 Emulator Accelerator(HAXM installer)(extras/intel/Hardware_Accelerated_Execution_Manager)
-https://software.intel.com/sites/default/files/haxm-windows_r03.zip
-https://software.intel.com/sites/default/files/managed/21/5f/haxm-macosx_r05.zip
-https://download-software.intel.com/sites/landingpage/android/extra_intel_haxm-windows_r03.zip
-https://download-software.intel.com/sites/landingpage/android/extra_intel_haxm-macosx_r03.zip
-https://dl-ssl.google.com/android/repository/extras/intel/haxm-windows_r05.zip
-https://dl-ssl.google.com/android/repository/extras/intel/haxm-windows_r05.4.zip
-https://dl-ssl.google.com/android/repository/extras/intel/haxm-macosx_r04.zip
-https://dl-ssl.google.com/android/repository/extras/intel/haxm-macosx_r05.4.zip
-https://dl-ssl.google.com/android/repository/extras/intel/haxm-windows_r6_0_3.zip
-https://dl-ssl.google.com/android/repository/extras/intel/haxm-macosx_r6_0_3.zip
+	* Google Play Licensing Library(extras/google/play_licensing)
+	https://dl-ssl.google.com/android/repository/market_licensing-r02.zip
+
+	* Android Auto API Simulators
+	https://dl-ssl.google.com/android/repository/simulator_r01.zip
+
+	* Google USB Driver(extras/usb_driver)
+	https://dl-ssl.google.com/android/repository/usb_driver_r10-windows.zip
+	https://dl-ssl.google.com/android/repository/usb_driver_r11-windows.zip
+
+	* Google Web Driver(extras/google/webdriver)
+	https://dl-ssl.google.com/android/repository/webdriver_r02.zip
+
+	* Intel x86 Emulator Accelerator(HAXM installer)(extras/intel/Hardware_Accelerated_Execution_Manager)
+	https://software.intel.com/sites/default/files/haxm-windows_r03.zip
+	https://software.intel.com/sites/default/files/managed/21/5f/haxm-macosx_r05.zip
+	https://download-software.intel.com/sites/landingpage/android/extra_intel_haxm-windows_r03.zip
+	https://download-software.intel.com/sites/landingpage/android/extra_intel_haxm-macosx_r03.zip
+	https://dl-ssl.google.com/android/repository/extras/intel/haxm-windows_r05.zip
+	https://dl-ssl.google.com/android/repository/extras/intel/haxm-windows_r05.4.zip
+	https://dl-ssl.google.com/android/repository/extras/intel/haxm-macosx_r04.zip
+	https://dl-ssl.google.com/android/repository/extras/intel/haxm-macosx_r05.4.zip
+	https://dl-ssl.google.com/android/repository/extras/intel/haxm-windows_r6_0_3.zip
+	https://dl-ssl.google.com/android/repository/extras/intel/haxm-macosx_r6_0_3.zip
 
 9. add-ons (google手机api,释放到android-sdk-windows/add-ons/)
 addon-google_apis-google-xx[xx对应api版本数字]
