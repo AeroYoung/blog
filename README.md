@@ -15,7 +15,7 @@
     * 数据库
         * [SQL与关系数据库理论](https://github.com/AeroYoung/blog/issues/1)
     * 其他
-        * <Programming ASP.NET>
+        * Programming ASP.NET
         * 英语
 * [LeetCode](https://github.com/AeroYoung/LeetCode) 
     * [双指针算法](https://github.com/AeroYoung/LeetCode/blob/master/%E5%8F%8C%E6%8C%87%E9%92%88.md)
