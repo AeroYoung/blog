@@ -23,3 +23,13 @@
     * [No.14 Longest Common Prefix](https://github.com/AeroYoung/LeetCode/issues/2)
 * Node.js [学习过程中的一些例子](https://github.com/AeroYoung/NodeJS_Project)
 * [MES项目分析](https://github.com/AeroYoung/blog/blob/master/Files/BHRT-MES%E9%A1%B9%E7%9B%AE%E5%88%86%E6%9E%90.md)
+* Python
+
+### Git
+
+绑定本地库和远程库
+```
+git init
+git remote add origin git@github.com:USERNAME/PROJECTNAME.git
+git pull origin master
+```
