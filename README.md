@@ -28,8 +28,11 @@
 ### Git
 
 绑定本地库和远程库
+
 ```
 git init
 git remote add origin git@github.com:USERNAME/PROJECTNAME.git
 git pull origin master
+git commit -a -m
+git push origin master
 ```
